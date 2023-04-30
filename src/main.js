@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// this is the entery point of Vue 
+import { createApp } from "vue";
 
-createApp(App).mount('#app')
+// importing the root app component
+import App from "./App.vue";
+
+createApp(App).mount("#app");
